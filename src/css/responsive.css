@@ -1,0 +1,123 @@
+/*RESPONSIVE DESKTOP*/
+
+@media(max-width: 1270px) {
+    .navbar {
+        padding: 30px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .home .informacoes {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+/*RESPONSIVE TABLET*/
+@media(max-width: 1024px) {
+
+    .home .container-foto .cores h2 {
+        font-size: 30px;
+        margin-left: 80px;
+    }
+
+    .home .container-foto .foto {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto .foto2 {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto .foto3 {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto img {
+        max-width: 100%;
+    }
+
+    .home .container-foto .foto {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto .foto2 {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto .foto3 {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto img {
+        max-width: 100%;
+    }
+}
+
+/*RESPONSIVE MOBILE*/
+
+@media(max-width: 425px) {
+
+    .navbar .logo {
+        width: 50px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .navbar .menu li a {
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+
+    .home .informacoes h1 {
+        font-size: 15px;
+    }
+
+    .home .informacoes p {
+        font-size: 10px;
+    }
+
+    .home .container-foto .cores h2 {
+        font-size: 18px;
+        margin-left: 95px;
+    }
+
+    .home .container-foto .foto {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto .foto2 {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto .foto3 {
+        min-height: 200px;
+        max-width: 250px;
+    }
+
+    .home .container-foto img {
+        max-width: 100%;
+    }
+
+    .section2 .especificacoes2 h3 {
+        font-size: 18px;
+    }
+
+    .home .container-foto img:hover {
+        transform: scale(1.7);
+    }
+}

@@ -1,0 +1,199 @@
+html {
+    color: aqua;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+    background: linear-gradient(150deg, black, aqua);
+    background-size: 120% 120%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+.navbar .logo {
+    
+    width: 120px;
+    height: 70px;
+    border-radius: 40%;
+    border: 2px solid #fff;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 2;
+    font-family: "Poppins", sans-serif;
+    transition: 1s;
+}
+
+.navbar a:hover .logo {
+    color: aqua;
+    border: 2px solid aqua
+}
+
+.navbar .menu li a {
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 1s;
+    border: 2px solid white;
+    border-radius: 50px;
+
+}
+
+.navbar .menu li a:hover {
+    background-color: aqua;
+    color: white;
+    border-radius: 50px;
+}
+
+.home {
+    
+    display: flex;
+    min-height: calc(100vh - 130px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.home .container-foto .cores h2{
+    font-family: "raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-left: 35%;
+}
+
+
+/* fotos mt-03 1 cinza */
+
+.home .container-foto .foto {
+    min-height: 300px;
+    max-width: 500px;
+    border-radius: 20%;
+    margin-bottom: 40px;  
+}
+
+.home .container-foto img {
+    width: 100%;
+    border-radius: 20%;
+    position: relative;
+    bottom: 100px;
+    transition: 1s;
+}
+
+.home .container-foto .sombra-interna {
+    background: linear-gradient(to right, aqua,rgb(10, 221, 193),white);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.home .container-foto img:hover {
+    transform: scale(2);
+
+}
+
+/* fotos mt-03 2 preta */
+
+.home .container-foto .foto2 {
+    min-height: 300px;
+    max-width: 500px;
+    border-radius: 20%;
+    margin-bottom: 40px;
+    
+}
+
+.home .container-foto img {
+    width: 100%;
+    border-radius: 20%;
+    position: relative;
+    top: 10px
+}
+
+.home .container-foto .sombra-interna2 {
+    background: linear-gradient(to right, aqua,rgb(10, 221, 193),white);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+/* fotos mt-03 3 azul */
+
+.home .container-foto .foto3 {
+    min-height: 300px;
+    max-width: 500px;
+    border-radius: 20%;
+    margin-bottom: 40px;
+}
+
+.home .container-foto img {
+    width: 100%;
+    border-radius: 20%;
+    position: relative;
+    top: 10px
+
+}
+
+.home .container-foto .sombra-interna3 {
+    background: linear-gradient(to right, aqua,rgb(10, 221, 193),white);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+
+
+
+
+.home .informacoes h1 {
+    font-family: "raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .informacoes p {
+    font-family: "raleway", sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.section2 .especificacoes2 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "raleway", sans-serif;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    text-transform: uppercase;
+    
+
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/*background: linear-gradient(to right, aqua,rgb(141, 146, 146),rgb(182, 62, 14));*/
